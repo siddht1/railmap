@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="studio-konkon">
+<head>
+  <meta charset="UTF-8">
+  <title>tabs</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" /><link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/dist/css/studio-konkon.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+   • https://getbootstrap.com/docs/5.1/utilities/position/
+   • https://getbootstrap.com/docs/5.1/helpers/stacks/#horizontal
+   • https://getbootstrap.com/docs/5.1/components/progress/
+   • https://getbootstrap.com/docs/5.1/components/navs-tabs/
+//-->
+
+<div class="container py-4">
+   <div class="py-4">
+      <div class="position-relative mb-4"
+           style="height:2rem;">
+         <div class="w-100 position-absolute top-50 start-50 translate-middle">
+            <div class="progress"
+                 style="height:.25rem;">
+               <div class="progress-bar bg-primary"
+                    id="progress-tab"
+                    role="progressbar"
+                    style="width:25%;"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+            <ul class="nav nav-tabs border-0 w-100 hstack justify-content-between position-absolute top-50 start-50 translate-middle"
+                id="skk-tabs">
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-primary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab1"
+                          data-skk-value="1">1</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-primary rounded-pill active"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab2"
+                          data-skk-value="2">2</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab3"
+                          data-skk-value="3">3</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab4"
+                          data-skk-value="4">4</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab5"
+                          data-skk-value="5">5</button>
+               </li>
+                           <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab6"
+                          data-skk-value="6">6</button>
+               </li>
+                                       <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab7"
+                          data-skk-value="7">7</button>
+               </li>
+                                       <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab8"
+                          data-skk-value="8">8</button>
+               </li>
+                                       <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab9"
+                          data-skk-value="9">9</button>
+               </li>
+                                       <li class="nav-item" role="presentation">
+                  <button type="button"
+                          class="btn btn-sm btn-secondary rounded-pill"
+                          style="width:2rem;height:2rem;"
+                          data-bs-toggle="tab"
+                          data-bs-target="#tab10"
+                          data-skk-value="10">10</button>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="tab-content p-4">
+         <div class="tab-pane animate__animated animate__flipInX" id="tab1">
+               <h4 class="">Station 1</h4>
+               <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sed leo sed finibus. Donec ac risus metus. Aenean porttitor, metus in elementum consequat, sapien sapien pulvinar arcu, vitae viverra dui nibh sed urna. Morbi vestibulum posuere elit ut mollis. Mauris eleifend rhoncus dui, et accumsan nibh finibus non. Ut ut urna facilisis magna faucibus commodo sodales at leo. Donec elit tellus, suscipit commodo egestas ut, venenatis quis sem. Nunc vitae fermentum nisi. Aliquam eget nibh vitae mauris convallis auctor vitae in tellus.</p>
+         </div>
+         <div class="tab-pane animate__animated animate__flipInX active" id="tab2">
+               <h4 class="">Station 2</h4>
+               <p class="">Aenean vel nibh venenatis, iaculis metus quis, dapibus ante. Ut vel dapibus mauris. Etiam varius, odio non condimentum fermentum, dolor velit convallis nunc, in ultrices lectus lectus in ipsum. Morbi posuere tincidunt nisl, vitae volutpat eros interdum sit amet. Morbi quis sollicitudin quam. Praesent quis augue erat. Nunc purus sem, hendrerit sit amet posuere id, egestas eget nulla. Mauris vulputate commodo velit a pharetra. Quisque feugiat enim vitae dictum molestie. Aenean sit amet ante non quam elementum tristique. Integer scelerisque mi ut imperdiet tincidunt. Curabitur aliquam feugiat tristique.</p>
+         </div>
+         <div class="tab-pane animate__animated animate__flipInX" id="tab3">
+               <h4 class="">Station 3</h4>
+               <p class="">Morbi nunc nunc, pretium et lacus in, blandit sagittis enim. Nunc vitae ipsum non magna volutpat ornare id nec leo. Aenean et accumsan lacus, sed hendrerit massa. Duis dapibus euismod eros, id fringilla turpis pharetra at. Proin quam augue, mattis sed mi nec, efficitur auctor elit. Donec sed lobortis enim. Maecenas varius ut mi quis tempor.</p>
+         </div>
+         <div class="tab-pane animate__animated animate__flipInX" id="tab4">
+               <h4 class="">Station 4</h4>
+               <p class="">Donec auctor velit vel risus vulputate, quis posuere enim cursus. Aenean vestibulum, libero vulputate tempor egestas, lectus lacus porta neque, at molestie orci sem id est. Mauris eu eros placerat, condimentum diam vel, dignissim mi. Curabitur euismod lorem ac bibendum congue. In laoreet molestie nisi in maximus. Nulla facilisi. Vivamus maximus vel nisi a elementum. Nam ultrices purus nec varius viverra. Mauris vitae nibh sollicitudin, sagittis tellus quis, venenatis augue. Nam sed lacinia lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam blandit malesuada laoreet. Nam porta sem rhoncus iaculis suscipit.</p>
+         </div>
+         <div class="tab-pane animate__animated animate__flipInX" id="tab5">
+               <h4 class="">Station 5</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+                  <div class="tab-pane animate__animated animate__flipInX" id="tab6">
+               <h4 class="">Station 6</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+                           <div class="tab-pane animate__animated animate__flipInX" id="tab7">
+               <h4 class="">Station 7</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+                           <div class="tab-pane animate__animated animate__flipInX" id="tab8">
+               <h4 class="">Station 8</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+                           <div class="tab-pane animate__animated animate__flipInX" id="tab9">
+               <h4 class="">Station 9</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+                           <div class="tab-pane animate__animated animate__flipInX" id="tab10">
+               <h4 class="">Station 10</h4>
+               <p class="">Etiam varius leo quis mauris accumsan viverra. Phasellus sed ante vel enim auctor cursus ut quis leo. Curabitur in condimentum lorem. Integer in maximus neque, eget mattis metus. Praesent aliquam mauris at nisl venenatis elementum. Praesent volutpat dignissim sapien quis porta. Maecenas auctor sapien quis arcu ullamcorper, vel vestibulum arcu condimentum. Integer vel tincidunt dui. Morbi aliquet nulla at augue sollicitudin iaculis. Maecenas tempor placerat vestibulum. Cras scelerisque est et eros gravida, id volutpat enim vestibulum. Duis porta purus egestas fermentum vehicula.</p>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
